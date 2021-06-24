@@ -1,0 +1,27 @@
+{
+  "name": "socket-test-server",
+  "version": "1.0.0",
+  "description": "Socket Server for Testing",
+  "author": "Sourav Sasmal",
+  "main": "server.ts",
+  "scripts": {
+    "start": "nodemon",
+    "_start": "tsc && node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/node": "^15.12.2",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3",
+    "ts-node": "^10.0.0"
+  },
+  "dependencies": {
+    "chrome-net": "^3.3.4",
+    "dom-parser": "^0.1.6",
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2",
+    "xmldom": "^0.6.0"
+  }
+}
