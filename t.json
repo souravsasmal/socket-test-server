@@ -1,0 +1,48 @@
+{
+    "status": "success",
+    "message": "data retrieved",
+    "data": {
+        "users": [{
+            "otp": null,
+            "role": "User",
+            "blocked": "No",
+            "securityKey": "1624952611290",
+            "_id": "60dacf4ffaba3d68c34683e4",
+            "name": "Sourav Sasmal",
+            "email": "sourav@annexbyte.com",
+            "createdAt": "2021-06-29T07:44:28.000Z",
+            "updatedAt": "2021-08-25T12:32:35.219Z",
+            "__v": 0,
+            "device": {
+                "macAddress": null,
+                "state": "<myclimate><response>getzoneinfo</response><system>off</system><type>heat</type><zoneList>2</zoneList><mode>thermo</mode><setPoint>20</setPoint><roomTemp id=\"2\">22</roomTemp><roomTemp id=\"Common\">22</roomTemp></myclimate>",
+                "schedule": "<myclimate><response>getprogram</response><range>monday</range><period id=\"1\"><state>active</state><time>0600</time><setPoint>21</setPoint><zoneList>1,2</zoneList></period><period id=\"2\"><state>idle</state><time>0900</time><zoneList>1,2</zoneList></period><period id=\"3\"><state>active</state><time>1700</time><setPoint>21</setPoint><zoneList>1,2,3,4</zoneList></period><period id=\"4\"><state>idle</state><time>2200</time><zoneList>1,2,3,4</zoneList></period><range>tuesday</range><period id=\"1\"><state>active</state><time>0600</time><setPoint>21</setPoint><zoneList>1,2</zoneList></period><period id=\"2\"><state>idle</state><time>0900</time><zoneList>1,2</zoneList></period><period id=\"3\"><state>active</state><time>1700</time><setPoint>21</setPoint><zoneList>1,2,3,4</zoneList></period><period id=\"4\"><state>idle</state><time>2200</time><zoneList>1,2,3,4</zoneList></period></myclimate>",
+                "installation": "<myclimate><response>installation</response><appliance><type>heat</type><zoneList>2,Common</zoneList></appliance><appliance><type>cool</type><zoneList>2,Common</zoneList></appliance><appliance><type>evap</type><zoneList/></appliance><zoneName id=\"2\">Zone 2</zoneName><zoneName id=\"Common\">Common</zoneName></myclimate>",
+                "stateHeat": {
+                    "mode": "thermo",
+                    "setPoint": "20",
+                    "fanSpeed": 4,
+                    "zoneList": "2"
+                },
+                "stateCool": null,
+                "stateEvap": null,
+                "isBlacklisted": false,
+                "pairKey": "45314B4B3847333447325A4A444A3933",
+                "_id": "6171621531050412075d3b0c",
+                "serialNo": "5020173802051",
+                "userId": "60dadbb2fddee17a1fa3b98d",
+                "sharedWith": [{
+                    "_id": "6171637f31050412075d3b8c",
+                    "userId": "60dacf4ffaba3d68c34683e4",
+                    "sharedOn": "2021-10-21T12:56:31.389Z"
+                }],
+                "createdAt": "2021-10-21T12:50:29.755Z",
+                "updatedAt": "2021-10-21T12:56:31.391Z",
+                "__v": 1
+            }
+        }],
+        "currentPage": 1,
+        "total": 1,
+        "totalPage": 1
+    }
+}
